@@ -10,6 +10,26 @@ const UserGuide = (props) => (
 
 		</p>
 
+		{
+			props.content.subItems ?
+				
+				props.content.subItems.map((content, index) => {
+					return(
+						<section key={index}>
+							<h2 className='subTitleContent'>{content.title}</h2>
+
+							<p className='guideContent'>
+
+								{content.content}
+
+							</p>
+						</section>
+					)
+				})
+
+			: null
+		}
+
 	</article>
 )
 

@@ -42,13 +42,41 @@ a {
 			font-size: 1.5rem;
 		}
 
-		.containerListNav {
-			background: #fff;
-		}
-
 		.subListNav {
+			display: block;
 			padding-left: 1.5rem;
 		}
+
+			.itemNav.fatherItem::after {
+				content: '';
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				top: 0;
+				right: 0;
+				width: 50px;
+				height: 2.5rem;
+			}
+
+			.itemNav.active::after {
+				content: '-';
+				color: #cfcfcf;
+			}
+
+			.itemNav.desactive::after {
+				content: '+';
+				color: #000;
+			}
+
+			.desactive + .subListNav {
+				display: none;
+			}
+
+			.activeItemNav.active.fatherItem::after,
+			.activeItemNav.desactive.fatherItem::after {
+				color: #000;
+			}
 
 			.itemNav {
 				position: relative;
@@ -72,6 +100,7 @@ a {
 		flex-grow: 1;
 		height: 100%;
 		padding: 2rem 4rem;
+		overflow: auto;
 	}
 
 		.titleContent {
@@ -84,8 +113,17 @@ a {
 
 		.guideContent {
 			font-size: .9rem;
+			padding: 1rem 0rem;
 			color: #707070;
 			font-family: helvetica;
 			line-height: 1.5rem;
 			letter-spacing: .05rem;
+		}
+
+		.subTitleContent {
+			display: block;
+			color: #696969;
+			padding: 1rem 0rem;
+			font-weight: normal;
+			font-size: 1.5rem;
 		}

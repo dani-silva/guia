@@ -28,6 +28,15 @@ class App extends React.Component {
 
 	changeContent(e, content) {
 
+		if (e.target.classList.value.indexOf('activeItemNav',0) != -1 || e.target.classList.value.indexOf('desactive',0) != -1) {
+
+			if (e.target.classList.value.indexOf('fatherItem',0) != -1) {
+				e.target.classList.toggle('active');
+				e.target.classList.toggle('desactive');
+			}
+
+		}
+
 		document.querySelector('.activeItemNav').classList.remove('activeItemNav');
 
 		e.target.classList.add('activeItemNav')

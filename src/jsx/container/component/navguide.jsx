@@ -28,7 +28,7 @@ class NavGuide extends React.Component {
 
 								<li key={index} link={item.link} title={item.title} >
 
-									<a onClick={(e) => this.props.functionChangeContent(e, item)} className='itemNav' to={item.link}> { item.title } </a>
+									<a onClick={(e) => this.props.functionChangeContent(e, item)} className='itemNav fatherItem active' to={item.link}> { item.title } </a>
 
 									{subList}
 
