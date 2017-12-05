@@ -1,0 +1,39 @@
+{
+	"guide": [
+		{
+			"title": "item 1",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.",
+			"subItems": [
+				{
+					"title": "item 1.1",
+					"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
+				}
+			]
+		},
+		{
+			"title": "item 2",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.",
+			"subItems": [
+				{
+					"title": "item 2.1",
+					"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus.",
+					"subItems": [
+						{
+							"title": "item 2.1.1",
+							"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni blanditiis nam beatae enim nulla illum minima accusantium velit voluptates? Eligendi architecto repellendus est reiciendis nihil aliquam id voluptatem quidem."
+
+						}
+					]
+				},
+				{
+					"title": "item 2.2",
+					"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
+				}
+			]
+		},
+		{
+			"title": "item 3",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam."
+		}
+	]
+}

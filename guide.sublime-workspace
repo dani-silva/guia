@@ -1,0 +1,940 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sub",
+				"subItem"
+			],
+			[
+				"lissty",
+				"list-style"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"containerToo",
+				"containerToolsSvg"
+			],
+			[
+				"mrg",
+				"margin"
+			],
+			[
+				"d3",
+				"d3Diference"
+			],
+			[
+				"gro",
+				"group1"
+			],
+			[
+				"gr",
+				"group2"
+			],
+			[
+				"dife",
+				"diferenceX"
+			],
+			[
+				"grou",
+				"group2"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"compo",
+				"component"
+			],
+			[
+				"re",
+				"ReactDOMServer"
+			],
+			[
+				"Rou",
+				"Route"
+			],
+			[
+				"propt",
+				"propTypes"
+			],
+			[
+				"obj",
+				"Object"
+			],
+			[
+				"c",
+				"changes"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"Reaen",
+				"reactEngine"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"zoo",
+				"zoomArea"
+			],
+			[
+				"class",
+				"class"
+			],
+			[
+				"ro",
+				"rotate"
+			],
+			[
+				"drag",
+				"dragged"
+			],
+			[
+				"cir",
+				"circulo"
+			],
+			[
+				"max",
+				"maxColumns"
+			],
+			[
+				"com",
+				"componentWillMount"
+			],
+			[
+				"get",
+				"getDataProps"
+			],
+			[
+				"ini",
+				"initList"
+			],
+			[
+				"fir",
+				"numFirstViewColumns"
+			],
+			[
+				"icon",
+				"IconButton"
+			],
+			[
+				"coreo",
+				"correo_mensaje"
+			],
+			[
+				"corr",
+				"correo_mensaje"
+			],
+			[
+				"nombre",
+				"nombre_mensaje"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"fex",
+				"flex-start"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"bri",
+				"briefcase"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"tras",
+				"transform"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"buttonC",
+				"buttonsBriefcase"
+			],
+			[
+				"min",
+				"min-window-front"
+			],
+			[
+				"section",
+				"section-front"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"alignms",
+				"align-items"
+			],
+			[
+				"overflw",
+				"overflow"
+			],
+			[
+				"fixeu",
+				"fixedButton"
+			],
+			[
+				"fixe",
+				"fixedButton"
+			],
+			[
+				"anim",
+				"animation"
+			],
+			[
+				"trafmo",
+				"transform"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"overflo",
+				"overflow-y"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"stro",
+				"strokeStyle"
+			],
+			[
+				"in",
+				"innerHeight"
+			],
+			[
+				"qu",
+				"quadraticCurveTo"
+			],
+			[
+				"apare",
+				"aparecerFormMenu"
+			],
+			[
+				"apa",
+				"aparecerMenuForm"
+			],
+			[
+				"ceul",
+				"celularAnimacion"
+			],
+			[
+				"logo",
+				"logo-principal"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bo",
+				"botonMenu"
+			],
+			[
+				"ff",
+				"ffa500"
+			],
+			[
+				"be",
+				"space-between"
+			],
+			[
+				"contemen",
+				"contenedorMenu"
+			],
+			[
+				"info",
+				"informacion-activado"
+			],
+			[
+				"qe",
+				"querySelector"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/styles.css",
+			"settings":
+			{
+				"buffer_size": 947,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\nimport { BrowserRouter } from 'react-router-dom'\nimport ReactDom from 'react-dom';\nimport App from './container/app.jsx';\n\nReactDom.render(\n\t<BrowserRouter>\n\t\t<App />\n\t</BrowserRouter>\n\t,document.getElementById('app')\n);",
+			"file": "src/js/index.jsx",
+			"file_size": 247,
+			"file_write_time": 131566429124913222,
+			"settings":
+			{
+				"buffer_size": 247,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\nimport NavGuide from './component/navguide.jsx';\nimport UserGuide from './component/userguide.jsx';\n\nclass App extends React.Component {\n\tconstructor(props){\n\t\tsuper(props);\n\n\t\tthis.dataGuide = {\n\t\t\tguide: [\n\t\t\t\t{\n\t\t\t\t\ttitle: 'item 1',\n\t\t\t\t\tlink: 'item-1',\n\t\t\t\t\tcontent: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.'\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\ttitle: 'item 2',\n\t\t\t\t\tlink: 'item-2',\n\t\t\t\t\tcontent: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.',\n\t\t\t\t\tsubItems: [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\ttitle: 'item 2.1',\n\t\t\t\t\t\t\tlink: 'item-2-1',\n\t\t\t\t\t\t\tcontent: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus.',\n\t\t\t\t\t\t\tsubItems: [\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\ttitle: 'item 2.1.1',\n\t\t\t\t\t\t\t\t\tlink: 'item-2-1-1',\n\t\t\t\t\t\t\t\t\tcontent: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni blanditiis nam beatae enim nulla illum minima accusantium velit voluptates? Eligendi architecto repellendus est reiciendis nihil aliquam id voluptatem quidem.',\n\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t]\n\t\t\t\t\t\t},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\ttitle: 'item 2.2',\n\t\t\t\t\t\t\tlink: 'item-2-2',\n\t\t\t\t\t\t\tcontent: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus.',\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t},\n\t\t\t\t\t]\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\ttitle: 'item 3',\n\t\t\t\t\tlink: 'item-3',\n\t\t\t\t\tcontent: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.'\n\t\t\t\t},\n\t\t\t]\n\t\t};\n\t}\n\n\trender() {\n\t\treturn (\n\t\t\t<div className='containerGuide'>\n\n\t\t\t\t<NavGuide data={this.dataGuide} />\n\n\t\t\t\t<UserGuide data={this.dataGuide} />\n\n\t\t\t</div>\n\t\t)\n\t}\n}\n\nexport default App;",
+			"file": "src/js/container/app.jsx",
+			"file_size": 2333,
+			"file_write_time": 131569077153397634,
+			"settings":
+			{
+				"buffer_size": 2333,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\nimport { Link } from 'react-router-dom';\n\nclass NavGuide extends React.Component {\n\tconstructor(props){\n\t\tsuper(props);\n\n\n\t\tthis.data = this.props.data.guide;\n\t\tthis.listNav = this.listNav.bind(this);\n\t}\n\n\tlistNav(arrayData, subStyle) {\n\n\t\treturn(\n\t\t\t<ul className={`${subStyle} containerListNav`}>\n\t\t\t\t{\n\t\t\t\t\tarrayData.map((item, index) => {\n\n\t\t\t\t\t\tif (item.subItems) {\n\n\t\t\t\t\t\t\tlet subList = this.listNav(item.subItems, 'subListNav');\n\n\t\t\t\t\t\t\treturn(\n\n\t\t\t\t\t\t\t\t<li key={index} link={item.link} title={item.title} >\n\n\t\t\t\t\t\t\t\t\t<Link className='itemNav' to={item.link}> { item.title } </Link>\n\n\t\t\t\t\t\t\t\t\t{subList}\n\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t)\n\n\t\t\t\t\t\t} else {\n\n\t\t\t\t\t\t\treturn(\n\t\t\t\t\t\t\t\t<li key={index}>\n\n\t\t\t\t\t\t\t\t\t<Link className='itemNav' to={item.link}> { item.title } </Link>\n\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t)\n\n\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t}\n\t\t\t</ul>\n\t\t)\n\n\t}\n\n\trender() {\n\n\t\tlet list = this.listNav(this.data)\n\n\t\treturn (\n\t\t\t<nav className='containerNavGuide'>\n\n\t\t\t\t<h1 className='firstTitle'>USER GUIDE</h1>\n\n\t\t\t\t{list}\n\n\t\t\t</nav>\n\n\t\t)\n\t}\n}\n\nexport default NavGuide;",
+			"file": "src/js/container/component/navguide.jsx",
+			"file_size": 1074,
+			"file_write_time": 131569076673157614,
+			"settings":
+			{
+				"buffer_size": 1074,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\n\nclass UserGuide extends React.Component {\n\tconstructor(props, {context}) {\n\t\tsuper(props);\n\n\t}\n\n\trender() {\n\t\treturn (\n\t\t\t<article className='containerUserGuide'>\n\t\t\t\n\t\t\t\tguia texto\n\n\t\t\t</article>\n\t\t)\n\t}\n}\n\nexport default UserGuide;",
+			"file": "src/js/container/component/userguide.jsx",
+			"file_size": 260,
+			"file_write_time": 131569080469477771,
+			"settings":
+			{
+				"buffer_size": 260,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/daniel/Documentos/proyectos/userguide",
+		"/home/daniel/Documentos/proyectos/userguide/public",
+		"/home/daniel/Documentos/proyectos/userguide/src"
+	],
+	"file_history":
+	[
+		"/home/daniel/Documentos/proyectos/hera/client/src/components/DynMenu.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/js/container/component/itemNav.jsx",
+		"/home/daniel/Documentos/proyectos/finshape/config/default.json",
+		"/home/daniel/Documentos/proyectos/hera/client/src/mainMenu.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/app.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/viewHome.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/nav.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/js/container/component/navguide.js",
+		"/home/daniel/Documentos/proyectos/userguide/webpack.config.js",
+		"/home/daniel/Documentos/proyectos/finshape/webpack.config.js",
+		"/home/daniel/Documentos/proyectos/userguide/.babelrc",
+		"/home/daniel/Documentos/proyectos/userguide/.gitignore",
+		"/home/daniel/Documentos/proyectos/finshape/package.json",
+		"/home/daniel/Documentos/proyectos/userguide/package.json",
+		"/home/daniel/Documentos/proyectos/toumap/webpack.config.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/views/container/app.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/index.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/js/index.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/views/index.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/guide.sublime-project",
+		"/home/daniel/Documentos/proyectos/userguide/public/index.html",
+		"/home/daniel/Documentos/proyectos/userguide/server.js",
+		"/home/daniel/Documentos/proyectos/userguide/public/styles.css",
+		"/home/daniel/Documentos/proyectos/userguide/src/views/container/component/buttonPaypal.jsx",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/css/homePage.css",
+		"/home/daniel/Documentos/proyectos/finshape/src/app/components/FirstComponent.jsx",
+		"/home/daniel/Documentos/proyectos/shopping-cart/.gitignore",
+		"/home/daniel/Documentos/proyectos/finshape/src/app/felix/Felix.jsx",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/js/responsiveViews.js",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/js/main.js",
+		"/media/daniel/EA64-0861/stella_polaris/web/css/estilos.css",
+		"/home/daniel/Documentos/proyectos/toumap/src/public/styles.css",
+		"/home/daniel/Documentos/proyectos/finshape/index.js",
+		"/home/daniel/Documentos/proyectos/toumap/package.json",
+		"/home/daniel/Documentos/proyectos/finshape/src/app/webpack.config.dev.js",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/index.html",
+		"/home/daniel/Documentos/proyectos/finshape/src/app/index.jsx",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/felix.html",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/aboutus.html",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/contact.html",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/team.html",
+		"/home/daniel/Documentos/proyectos/finshape/src/app/index.felix.jsx",
+		"/home/daniel/Documentos/proyectos/finshape/docs/morteoAPI.model.sql",
+		"/home/daniel/Documentos/proyectos/hera/client/src/containers/DinamicTable.jsx",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/static/finshape.html",
+		"/home/daniel/Documentos/proyectos/hera/server/static/classPlans.json",
+		"/home/daniel/Documentos/proyectos/felix.jsx",
+		"/home/daniel/Documentos/proyectos/FirstComponent.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/directory.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/profile.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/viewProfile.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/server.js",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/navExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/explorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/public/index.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/views/index.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/public/index.html",
+		"/home/daniel/Documentos/proyectos/toumap/public/index.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/public/styles.css",
+		"/home/daniel/Documentos/proyectos/toumap/.gitignore",
+		"/home/daniel/Documentos/proyectos/finshape/.gitignore",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/profileImage.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/listDirectory.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/header.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/server-dev.js",
+		"/home/daniel/Documentos/proyectos/toumap/webpack.config.server.js",
+		"/home/daniel/Documentos/proyectos/toumap-v/server.js",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/sectionGallery.jsx",
+		"/home/daniel/Documentos/proyectos/shopping-cart/package.json",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/sectionOptions.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/homelist.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/sectionDesc.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/sectionFollow.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/followLinks.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/recoverExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/sectionPromo.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/sectionMap.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/share.jsx",
+		"/home/daniel/Documentos/proyectos/hera/client/src/routes.js",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/home.jsx",
+		"/var/www/toumap/vistas/perfiles.view.php",
+		"/var/www/toumap/vistas/header.view.php",
+		"/var/www/toumap/vistas/pie-pagina.view.php",
+		"/var/www/toumap/index.php",
+		"/var/www/toumap/perfiles.php",
+		"/var/www/toumap/js/perfiles.js",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/sectionComments.jsx",
+		"/var/www/danielsilva/vistas/articulos.vista.php",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/footer.jsx",
+		"/media/daniel/EA64-0861/DanielSilva/SitioWeb v2.1/blog.php",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/untitled.js",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/profile.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/directory.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/message.jsx",
+		"/media/daniel/EA64-0861/toumap/diseño_bd.json",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/loginExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/registerExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/item.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/buttonExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/public/app/styles.css",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/explorer.jsx",
+		"/home/daniel/Documentos/proyectos/hera/client/src/containers/Canvas.jsx",
+		"/home/daniel/Documentos/proyectos/finshape-dev/src/app/components/FirstComponent.jsx",
+		"/home/daniel/Documentos/proyectos/finshape-dev/src/index.html",
+		"/home/daniel/Documentos/proyectos/finshape-dev/src/app/index.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/homelist.js",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/nav.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/explorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/recoverExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/loginExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/registerExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/header.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/navExplorer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/message.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/component/item.jsx",
+		"/home/daniel/Documentos/proyectos/hera/client/src/components/Forum/ForumMenu.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/nav.jsx",
+		"/home/daniel/Documentos/proyectos/hera/client/src/components/Forum/ViewForums.jsx",
+		"/home/daniel/Documentos/proyectos/hera/client/src/components/LoginForm.jsx",
+		"/home/daniel/Documentos/proyectos/hera/client/src/containers/ForumContainer.jsx",
+		"/home/daniel/Documentos/proyectos/toumap/src/js/index.js",
+		"/home/daniel/Documentos/proyectos/toumap/src/views/styles.css",
+		"/home/daniel/Documentos/proyectos/hera/index.js",
+		"/home/daniel/Documentos/proyectos/hera/server/routes/modules/Forum/Forum.js",
+		"/home/daniel/Documentos/proyectos/hera/server/routes/modules/Calendar/Calendar.js",
+		"/home/daniel/Documentos/proyectos/hera/server/routes/passport_mysql.js",
+		"/home/daniel/Documentos/proyectos/hera/server/routes/auth.js",
+		"/home/daniel/Documentos/proyectos/hera/server/routes/modules/School/School.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"subItem",
+			"(\n",
+			"\n\t\t",
+			"item",
+			"listNav",
+			"itemGuideNav",
+			"\t\t\t\t\t\n",
+			"span",
+			"views",
+			"ZoomArea",
+			"zoomArea",
+			"ZoomArea",
+			"zoomArea",
+			"transform",
+			"zoomArea",
+			"ZoomArea",
+			"zoomArea",
+			"areazo",
+			"areaZoom",
+			".container-area-zoom",
+			"containerZoomArea",
+			"zoomArea",
+			"containerZoomArea",
+			".container-area-zoom",
+			"containerZoomArea",
+			".container-area-zoom",
+			"containerZoomArea",
+			"after",
+			"containerZoomArea",
+			"dragZoomArea",
+			"containerZoomArea",
+			"dragZoomArea",
+			"containerZoomArea",
+			"dragZoomArea",
+			"container-area-zoom",
+			"dragZoomArea",
+			"containerZoomArea",
+			"dragZoomArea",
+			"containerZoomArea",
+			"containerAreaZoom",
+			"dragZoomArea",
+			"dragAreaZoom",
+			"containerAreaZoom",
+			"dragAreaZoom",
+			"containerAreaZoom",
+			"dragAreaZoom",
+			"containerAreaZoom",
+			"container-area-zoom",
+			"t.imageTransform",
+			"container",
+			"onClick",
+			"getImgFromServ",
+			"main",
+			"Main",
+			"main",
+			"containerToolsSvg",
+			"buttonViewTools",
+			"containerSvg",
+			";\n",
+			"absolute",
+			"containerTools",
+			"containerButtons",
+			"containerMain",
+			"containerTools",
+			"butonEvent",
+			"runEvent",
+			"props",
+			"Props",
+			"props",
+			"Props",
+			"props",
+			"runEvent",
+			"butonEvent",
+			"sliderZoom",
+			"imageTransform",
+			"sliderZoom",
+			"imageTransform",
+			"T",
+			"t",
+			"rotateImage",
+			"setChangesToImage",
+			"imageAlreadyExists",
+			"setChangesToImage",
+			"imgFileName",
+			"handleDrawMethod",
+			"handleModalView",
+			"setChangesToImage",
+			"renderControlPoints",
+			"addDragToLine",
+			"letUserDraw",
+			"setWorkingMethod",
+			"handlePointMethod",
+			"handlePointSelection",
+			"diference",
+			"transform",
+			"0",
+			".g-area-rect",
+			"x",
+			"group3",
+			"sizeWidth3",
+			"group3",
+			"coords",
+			"group3.x",
+			"group3",
+			"group3.width",
+			"group3",
+			"x3",
+			"group1",
+			"text",
+			".rect-size-width",
+			"event",
+			"transform",
+			"event",
+			"transform",
+			"event",
+			"transform",
+			".rect-1",
+			".text-width",
+			"obj",
+			"event",
+			"transform",
+			"d3",
+			"sizeLeft",
+			"orange",
+			"addZoomEvent",
+			"resetImgManipulations",
+			"td",
+			"style"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{\n",
+			");\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								632,
+								632
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/container/app.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2251,
+								2251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/js/container/component/navguide.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								976,
+								976
+							],
+							[
+								1014,
+								1014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/js/container/component/userguide.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "guide.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documentos/TRABAJO/DanielSilva/SitioWeb (copia)/index.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
