@@ -1,11 +1,11 @@
 {
 	"guide": [
 		{
-			"title": "item 1",
+			"title": "Morteo weller method",
 			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.",
 			"subItems": [
 				{
-					"title": "item 1.1",
+					"title": "Image manipulation",
 					"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
 				}
 			]

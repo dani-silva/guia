@@ -1,7 +1,7 @@
 import React from 'react';
 import NavGuide from './component/navguide.jsx';
 import UserGuide from './component/userguide.jsx';
-import Data from '../../data.json';
+//import Data from '../../data.json';
 
 class App extends React.Component {
 	constructor(props){
@@ -10,19 +10,44 @@ class App extends React.Component {
 			selected: {
 				title: 'Title',
 				content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.',
-			}
+			},
+			data: [
+				{
+				title: 'Title render',
+				content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.',
+				}
+			]
 		}
 
-		this.dataGuide = Data;
+		//this.dataGuide = Data;
 
 		this.changeContent = this.changeContent.bind(this);
 	}
 
-	componentDidMount() {
-		
-		this.setState({
-			selected: this.dataGuide.guide[0]
-		});
+	componentWillMount() {
+
+		let t = this;
+		let jsonResponse
+
+		let http = new XMLHttpRequest();
+
+		http.onreadystatechange = () => {
+			if (http.readyState == 4 && http.status == 200) {
+
+				jsonResponse = JSON.parse(http.response);
+				//console.log(jsonResponse)
+
+				t.setState({
+					selected: jsonResponse[0],
+					data: jsonResponse
+				});
+
+			}
+		}
+
+		http.open('POST', 'guide', false);
+
+		http.send();
 
 	}
 
@@ -48,13 +73,13 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<section className='containerGuide'>
+			<main className='containerGuide'>
 
-				<NavGuide functionChangeContent={this.changeContent} nav={this.dataGuide} />
+				<NavGuide functionChangeContent={this.changeContent} nav={this.state.data} />
 
 				<UserGuide content={this.state.selected} />
 
-			</section>
+			</main>
 		)
 	}
 }

@@ -4,9 +4,9 @@ class NavGuide extends React.Component {
 	constructor(props){
 		super(props);
 
-
-		this.data = this.props.nav.guide;
+		this.data = this.props.nav;
 		this.listNav = this.listNav.bind(this);
+		
 	}
 
 	componentDidMount() {
