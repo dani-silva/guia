@@ -6,15 +6,6 @@
 	font-family: helvetica;
 }
 
-ul {
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-	color: #000;
-}
-
 .containerGuide {
 	display: flex;
 	justify-content: space-around;
@@ -30,94 +21,64 @@ a {
 		min-width: 300px;
 		background: #fff;
 		border-right: 1px solid #cfcfcf;
-		padding: 1rem;
+		padding: 1rem 0rem;
 		overflow: auto;
 	}
 
 		.titleNav {
 			display: block;
 			color: #696969;
-			padding: 1rem .5rem;
+			padding: 1rem;
 			font-weight: normal;
-			font-size: 1.5rem;
+			font-size: 1rem;
 		}
 
-		.subListNav {
-			display: block;
-			padding-left: 1.5rem;
+		.selectedItemNav {
+			background: #000;
 		}
-
-			.itemNav.fatherItem::after {
-				content: '';
-				position: absolute;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				top: 0;
-				right: 0;
-				width: 50px;
-				height: 2.5rem;
-			}
-
-			.itemNav.active::after {
-				content: '-';
-				color: #cfcfcf;
-			}
-
-			.itemNav.desactive::after {
-				content: '+';
-				color: #000;
-			}
-
-			.desactive + .subListNav {
-				display: none;
-			}
-
-			.activeItemNav.active.fatherItem::after,
-			.activeItemNav.desactive.fatherItem::after {
-				color: #000;
-			}
-
-			.itemNav {
-				position: relative;
-				cursor: pointer;
-				display: block;
-				padding: .75rem .5rem;
-				font-size: .9rem;
-				margin: .5rem 0rem;
-				color: #696969;
-			}
-
-			.itemNav:hover {
-				background: #fafafa;
-			}
-
-			.activeItemNav {
-				background: #fafafa;
-			}
 
 	.containerContent {
 		flex-grow: 1;
 		height: 100%;
-		padding: 2rem 4rem;
+		padding: 1rem 2rem;
 		overflow: auto;
 	}
 
 		.titleContent {
 			display: block;
-			color: #696969;
+			color: #000;
 			padding: 1rem 0rem;
 			font-weight: normal;
-			font-size: 2rem;
+			font-size: 1.8rem;
+			border-bottom: 1px solid #696969;
+			margin-bottom: 2rem;
 		}
 
-		.guideContent {
-			font-size: .9rem;
+		.containerContent img {
+			display: block;
+			width: 100%;
+		}
+
+		h2, h3, h4 , h5, h6 {
+			line-height: 2rem;
 			padding: 1rem 0rem;
-			color: #707070;
-			font-family: helvetica;
+			color: #696969;
+		}
+
+		a {
+			color: red;
+		}
+
+		ul, ol {
+			padding-left: .5rem;
+			color: red;
+		}
+
+		p {
+			color: #000;
 			line-height: 1.5rem;
-			letter-spacing: .05rem;
+			padding: .5rem 0rem;
+			font-size: 1rem;
 		}
 
 		.subTitleContent {

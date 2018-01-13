@@ -2,38 +2,38 @@
 	"guide": [
 		{
 			"title": "Morteo weller method",
+			"content": "## Prueba sub titulo\n**Lorem ipsum** dolor sit amet, *consectetur* adipisicing elit. [link to Google!](http://google.com) Tempore ipsum vitae eveniet fugiat cupiditate. ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.",
+			"subItems": [{"title": "Image manipulation"}]
+		},
+		{
+			"title": "Image manipulation",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
+		},
+		{
+			"title": "Felix method",
 			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.",
 			"subItems": [
-				{
-					"title": "Image manipulation",
-					"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
-				}
+				{"title": "Move rects",
+				 "subItems": [{"title": "Zoom"}]
+				},
+				{"title": "Resize rects"}
 			]
 		},
 		{
-			"title": "item 2",
-			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.",
-			"subItems": [
-				{
-					"title": "item 2.1",
-					"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus.",
-					"subItems": [
-						{
-							"title": "item 2.1.1",
-							"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni blanditiis nam beatae enim nulla illum minima accusantium velit voluptates? Eligendi architecto repellendus est reiciendis nihil aliquam id voluptatem quidem."
-
-						}
-					]
-				},
-				{
-					"title": "item 2.2",
-					"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
-				}
-			]
+			"title": "Move rects",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta incidunt unde, at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
+		},
+		{
+			"title": "Zoom",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni blanditiis nam beatae enim nulla illum minima accusantium velit voluptates? Eligendi architecto repellendus est reiciendis nihil aliquam id voluptatem quidem."
+		},
+		{
+			"title": "Resize rects",
+			"content": "`Lorem` ipsum dolor sit amet, consectetur adipisicing elit.\n> Beatae soluta incidunt unde,\n> Daniel silva\n at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
 		},
 		{
 			"title": "item 3",
-			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam."
+			"content": "1. Lorem ipsum\n2. dolor sit amet\n Consectetur adipisicing elit. Tempore ipsum vitae evenietfugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam."
 		}
 	]
 }

@@ -1,57 +1,54 @@
 import React from 'react';
 
+import {List, ListItem} from 'material-ui/List';
+
 class NavGuide extends React.Component {
 	constructor(props){
 		super(props);
+		this.state = {
+			open: true,
+		}
 
 		this.data = this.props.nav;
 		this.listNav = this.listNav.bind(this);
 		
 	}
 
-	componentDidMount() {
-		document.querySelector('.itemNav').classList.add('activeItemNav')
-	}
-
-	listNav(arrayData, subStyle) {
+	listNav(arrayData) {
 
 		return(
-			<ul className={`${subStyle} containerListNav`}>
-				{
-					arrayData.map((item, index) => {
+		
+			arrayData.map((item, index) => {
 
-						if (item.subItems) {
+				if (item.subItems) {
 
-							let subList = this.listNav(item.subItems, 'subListNav');
+					let subList = this.listNav(item.subItems);
 
-							return(
+					return(
 
-								<li key={index} link={item.link} title={item.title} >
+						<ListItem
+							key={index}
+				        	primaryText={item.title}
+				        	initiallyOpen={this.state.open}
+				        	nestedItems={subList}
+				        	onClick={() => this.props.functionChangeContent(item.title)}
+						/>
+					)
 
-									<a onClick={(e) => this.props.functionChangeContent(e, item)} className='itemNav fatherItem active' to={item.link}> { item.title } </a>
+				} else {
 
-									{subList}
+					return(
 
-								</li>
-								
-							)
-
-						} else {
-
-							return(
-								<li key={index}>
-
-									<a onClick={(e) => this.props.functionChangeContent(e, item)} className='itemNav' to={item.link}> { item.title } </a>
-
-								</li>
-							)
-
-						}
-					})
+						<ListItem
+							key={index}
+				        	primaryText={item.title}
+				        	initiallyOpen={this.state.open}
+				        	onClick={() => this.props.functionChangeContent(item.title)}
+						/>
+					)
 				}
-			</ul>
+			})
 		)
-
 	}
 
 	render() {
@@ -62,8 +59,10 @@ class NavGuide extends React.Component {
 			<nav className='containerNavGuide'>
 
 				<h2 className='titleNav'>USER GUIDE</h2>
-
-				{list}
+				
+				<List>
+					{list}
+				</List>
 
 			</nav>
 
