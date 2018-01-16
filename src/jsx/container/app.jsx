@@ -26,7 +26,7 @@ class App extends React.Component {
 
 				jsonResponse = JSON.parse(http.response);
 
-				//console.log(jsonResponse)
+				console.log(jsonResponse);
 
 				t.setState({
 					content: jsonResponse

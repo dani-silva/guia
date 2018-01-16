@@ -2,6 +2,7 @@
 	"guide": [
 		{
 			"title": "Morteo weller method",
+			"index": 0,
 			"content": "## Prueba sub titulo\n**Lorem ipsum** dolor sit amet, *consectetur* adipisicing elit. [link to Google!](http://google.com) Tempore ipsum vitae eveniet fugiat cupiditate. ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.",
 			"subItems": [{"title": "Image manipulation"}]
 		},
@@ -11,11 +12,10 @@
 		},
 		{
 			"title": "Felix method",
+			"index": 4,
 			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsum vitae eveniet fugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam.",
 			"subItems": [
-				{"title": "Move rects",
-				 "subItems": [{"title": "Zoom"}]
-				},
+				{"title": "Move rects", "subItems": [{"title": "Zoom"}] },
 				{"title": "Resize rects"}
 			]
 		},
@@ -32,8 +32,14 @@
 			"content": "`Lorem` ipsum dolor sit amet, consectetur adipisicing elit.\n> Beatae soluta incidunt unde,\n> Daniel silva\n at, maiores temporibus ipsam magnam asperiores provident aut pariatur. Nam dolore necessitatibus in. Enim optio suscipit explicabo ducimus."
 		},
 		{
-			"title": "item 3",
-			"content": "1. Lorem ipsum\n2. dolor sit amet\n Consectetur adipisicing elit. Tempore ipsum vitae evenietfugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam."
+			"title": "Item 3",
+			"index": 2,
+			"content": "1. Lorem ipsum \n 2. dolor sit amet \n\r Consectetur adipisicing elit. Tempore ipsum vitae evenietfugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam."
+		},
+		{
+			"title": "Titulo 4",
+			"index": 1,
+			"content": "-Lorem ipsum\n\r-dolor sit amet \n\r Consectetur adipisicing elit. Tempore ipsum vitae evenietfugiat cupiditate. Deserunt ad mollitia enim, rerum fugit repudiandae minima, nulla est facere delectus ex voluptate possimus veniam."
 		}
 	]
 }

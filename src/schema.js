@@ -5,6 +5,7 @@ const mongoose = require('./model'),
 	GuideSchema = new Schema(
 		{
 			_id: Schema.Types.ObjectId,
+			index: Number,
 			title: String,
 			content: String,
 			subItems: Array

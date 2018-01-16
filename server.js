@@ -16,12 +16,12 @@ app
 
 	.get('/navguide', (req, res) => {
 
-		conn.find({},{content: false},(err, doc) => {
+		conn.find({},{_id: false, content: false},(err, doc) => {
 
-			//save titles in array			
+			//save titles in array
 			let arraySearch = [];
 
-			//recursive function, recive array with documents
+			//recursive function, recive array with document
 			let arrayDoc = (doc) => {
 
 				return (
@@ -32,7 +32,7 @@ app
 
 						//filter function
 						let filterSearch = (i) => {
-							return item.title == i; 
+							return item.title == i;
 						}
 
 						// save titles of array variable
@@ -45,18 +45,31 @@ app
 								//recursive function
 								let subArrayDoc = arrayDoc(item.subItems);
 
-								return {
-									title: item.title,
-									subItems: subArrayDoc
+								if (item.index >= 0) {
+									return {
+										index: item.index,
+										title: item.title,
+										subItems: subArrayDoc
+									}
+								} else {
+									return {
+										title: item.title,
+										subItems: subArrayDoc
+									}
 								}
-
 							} else {
-								
-								return {
-									title: item.title
+
+								if (item.index >= 0) {
+									return {
+										index: item.index,
+										title: item.title
+									}
+								} else {
+									return {
+										title: item.title
+									}
 								}
 							}
-
 						} else {
 							return null;
 						}
@@ -71,24 +84,32 @@ app
 				return r != null;
 			}
 
-			res.json(result.filter(filterResult))
+			let filterR = result.filter(filterResult);
+
+			let orderResult = filterR.sort((a, b) => {
+				if (a.index > b.index) {
+					return 1;
+				}
+				return -1;
+			})
+
+			res.json(orderResult)
 				
 		})
-		
 	})
 	
 	.get('/searchcontent/:title', (req, res) => {
 
-		conn.findOne({"title": req.params.title },{_id: false, title: false, subItems: false}, (err, doc) => {
+		conn.findOne({"title": req.params.title},{_id: false, index: false, title: false, subItems: false}, (err, doc) => {
 
 			if (doc) {
 				
-				res.json(doc)
+				res.json(doc);
 
 			} else {
 				res.json({
-					content: 'empty content'
-				})
+					content: 'Empty content'
+				});
 			}
 
 		})
