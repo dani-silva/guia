@@ -1,8 +1,8 @@
 const express = require('express'),
 	app = express(),
-	router = require('./routes'),
+	router = require('./src/server/routes/modules/userguide/userguide'),
 	path = require('path'),
-	publicDir = express.static(path.join(__dirname, 'public')),
+	publicDir = express.static(path.join(__dirname, 'dist')),
 	port = (process.env.PORT || 3000);
 
 //let data = require('./src/data.json');

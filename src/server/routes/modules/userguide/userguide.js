@@ -1,5 +1,5 @@
 const express = require('express'),
-	conn = require('./src/schema'),
+	conn = require('./model/schema'),
 	Router = express.Router();
 
 exports.routes = () => {

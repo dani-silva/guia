@@ -295,25 +295,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "server.js",
-			"settings":
-			{
-				"buffer_size": 400,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes.js",
-			"settings":
-			{
-				"buffer_size": 2204,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "routes.js"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -368,17 +349,37 @@
 	"expanded_folders":
 	[
 		"/home/daniel/Documentos/proyectos/userguide",
-		"/home/daniel/Documentos/proyectos/userguide/public",
 		"/home/daniel/Documentos/proyectos/userguide/src",
-		"/home/daniel/Documentos/proyectos/userguide/src/jsx",
-		"/home/daniel/Documentos/proyectos/userguide/src/jsx/container",
-		"/home/daniel/Documentos/proyectos/userguide/src/jsx/container/component"
+		"/home/daniel/Documentos/proyectos/userguide/src/app",
+		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component",
+		"/home/daniel/Documentos/proyectos/userguide/src/server",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide"
 	],
 	"file_history":
 	[
+		"/home/daniel/Documentos/proyectos/userguide/server.js",
+		"/home/daniel/Documentos/proyectos/userguide/webpack.config.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/userguide.js",
+		"/home/daniel/Documentos/proyectos/userguide/.babelrc",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/static/index.html",
+		"/home/daniel/Documentos/proyectos/userguide/dist/index.html",
+		"/home/daniel/Documentos/proyectos/finshape/src/app/submodules/forum/src/server/static/index.html",
+		"/home/daniel/Documentos/proyectos/finshape/webpack.config.js",
+		"/home/daniel/Documentos/proyectos/finshape/src/app/submodules/forum/webpack.config.js",
+		"/home/daniel/Documentos/proyectos/finshape/src/app/submodules/forum/src/server/routes/modules/Forum/Forum.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/app/container/app.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component/navguide.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component/userguide.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/app/index.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/routes.js",
+		"/home/daniel/Documentos/proyectos/userguide/routes.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/data.json",
+		"/home/daniel/Documentos/proyectos/userguide/src/config.json",
+		"/home/daniel/Documentos/proyectos/finshape/src/server/routes/modules/Forum/Forum.js",
 		"/home/daniel/Documentos/proyectos/shopping-cart/routes.js",
 		"/home/daniel/Documentos/proyectos/userguide/public/styles.css",
-		"/home/daniel/Documentos/proyectos/userguide/src/data.json",
 		"/home/daniel/Documentos/proyectos/userguide/src/jsx/container/component/navguide.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/jsx/container/app.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/package.json",
@@ -389,11 +390,8 @@
 		"/home/daniel/Descargas/Coco x264 HDTS/Password.txt",
 		"/home/daniel/Documentos/proyectos/userguide/src/jsx/container/component/userguide.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/guide.sublime-project",
-		"/home/daniel/Documentos/proyectos/userguide/server.js",
-		"/home/daniel/Documentos/proyectos/userguide/src/config.json",
 		"/home/daniel/Documentos/proyectos/userguide/src/jsx/index.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/public/index.html",
-		"/home/daniel/Documentos/proyectos/userguide/webpack.config.js",
 		"/home/daniel/Documentos/proyectos/hera/client/src/components/DynMenu.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/js/container/component/itemNav.jsx",
 		"/home/daniel/Documentos/proyectos/finshape/config/default.json",
@@ -402,8 +400,6 @@
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/viewHome.jsx",
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/nav.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/js/container/component/navguide.js",
-		"/home/daniel/Documentos/proyectos/finshape/webpack.config.js",
-		"/home/daniel/Documentos/proyectos/userguide/.babelrc",
 		"/home/daniel/Documentos/proyectos/userguide/.gitignore",
 		"/home/daniel/Documentos/proyectos/finshape/package.json",
 		"/home/daniel/Documentos/proyectos/toumap/webpack.config.js",
@@ -490,20 +486,7 @@
 		"/home/daniel/Documentos/proyectos/toumap/public/app/styles.css",
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/explorer.jsx",
 		"/home/daniel/Documentos/proyectos/hera/client/src/containers/Canvas.jsx",
-		"/home/daniel/Documentos/proyectos/finshape-dev/src/app/components/FirstComponent.jsx",
-		"/home/daniel/Documentos/proyectos/finshape-dev/src/index.html",
-		"/home/daniel/Documentos/proyectos/finshape-dev/src/app/index.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/homelist.js",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/nav.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/explorer.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/recoverExplorer.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/loginExplorer.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/registerExplorer.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/header.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/navExplorer.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/message.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/component/item.jsx",
-		"/home/daniel/Documentos/proyectos/hera/client/src/components/Forum/ForumMenu.jsx"
+		"/home/daniel/Documentos/proyectos/finshape-dev/src/app/components/FirstComponent.jsx"
 	],
 	"find":
 	{
@@ -668,67 +651,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "server.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								291,
-								291
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "routes.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								132,
-								132
-							]
-						],
-						"settings":
-						{
-							"auto_name": "routes.js",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -763,6 +687,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -817,7 +745,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 166.0,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
