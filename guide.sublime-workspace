@@ -295,6 +295,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/data.json",
+			"settings":
+			{
+				"buffer_size": 5898,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/styles.css",
+			"settings":
+			{
+				"buffer_size": 1396,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -349,9 +367,9 @@
 	"expanded_folders":
 	[
 		"/home/daniel/Documentos/proyectos/userguide",
+		"/home/daniel/Documentos/proyectos/userguide/dist",
 		"/home/daniel/Documentos/proyectos/userguide/src",
 		"/home/daniel/Documentos/proyectos/userguide/src/app",
-		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component",
 		"/home/daniel/Documentos/proyectos/userguide/src/server",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules",
@@ -359,9 +377,13 @@
 	],
 	"file_history":
 	[
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/userguide.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/schema.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/model.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/config.json",
+		"/home/daniel/Documentos/proyectos/userguide/src/app/index.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/server.js",
 		"/home/daniel/Documentos/proyectos/userguide/webpack.config.js",
-		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/userguide.js",
 		"/home/daniel/Documentos/proyectos/userguide/.babelrc",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/static/index.html",
 		"/home/daniel/Documentos/proyectos/userguide/dist/index.html",
@@ -372,7 +394,6 @@
 		"/home/daniel/Documentos/proyectos/userguide/src/app/container/app.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component/navguide.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component/userguide.jsx",
-		"/home/daniel/Documentos/proyectos/userguide/src/app/index.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/routes.js",
 		"/home/daniel/Documentos/proyectos/userguide/routes.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/data.json",
@@ -483,10 +504,7 @@
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/registerExplorer.jsx",
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/item.jsx",
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/buttonExplorer.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/public/app/styles.css",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/explorer.jsx",
-		"/home/daniel/Documentos/proyectos/hera/client/src/containers/Canvas.jsx",
-		"/home/daniel/Documentos/proyectos/finshape-dev/src/app/components/FirstComponent.jsx"
+		"/home/daniel/Documentos/proyectos/toumap/public/app/styles.css"
 	],
 	"find":
 	{
@@ -651,8 +669,67 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/data.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dist/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1137,
+								1137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -745,7 +822,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 201.0,
+	"side_bar_width": 212.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
