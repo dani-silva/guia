@@ -3,7 +3,7 @@ const express = require('express'),
 	Router = express.Router();
 
 Router
-	.get('/', (req, res) => res.render('index'))
+	.get('/', (req, res) => res.render('userguide'))
 
 	.get('/navguide', (req, res) => {
 

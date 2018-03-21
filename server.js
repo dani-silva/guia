@@ -2,15 +2,17 @@ const express = require('express'),
 	app = express(),
 	routers = require('./src/server/routes/modules/userguide/userguide'),
 	path = require('path'),
-	publicDir = express.static(path.join(__dirname, 'dist')),
+	dist = express.static(path.join(__dirname, '/dist')),
+	publicDir = __dirname + '/src/server/views',
 	port = (process.env.PORT || 3000);
 
 //let data = require('./src/data.json');
 
 app
 	.set('port', port)
-
-	.use(publicDir)
+	.set('views', publicDir)
+	.set('view engine', 'ejs')
+	.use(dist)
 
 	.use('/', routers)
 

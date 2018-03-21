@@ -11,6 +11,7 @@
   "author": "Daniel Silva <jdsc17@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.15.4",
     "material-ui": "^0.20.0",
     "mongoose": "^4.13.6",
