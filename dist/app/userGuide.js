@@ -22262,7 +22262,7 @@ var App = function (_React$Component) {
 				}
 			};
 
-			http.open('GET', 'navguide', false);
+			http.open('GET', 'userguide/navguide', false);
 
 			http.send();
 		}
@@ -22289,7 +22289,7 @@ var App = function (_React$Component) {
 				}
 			};
 
-			http.open('GET', 'searchcontent/' + content, false);
+			http.open('GET', 'userguide/searchcontent/' + content, false);
 
 			http.send();
 			/*

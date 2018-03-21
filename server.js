@@ -16,7 +16,7 @@ app
 	.use(dist)
 	.use(distApp)
 
-	.use('/', routers)
+	.use('/userguide', routers)
 
 	.listen(app.get('port'), () => console.log('servidor corriendo: ' + port));
 
