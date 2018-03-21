@@ -3,7 +3,7 @@
 let webpack = require('webpack');
 let path = require('path');
 
-let DIST_DIR  = path.resolve(__dirname, 'dist');
+let DIST_DIR  = path.resolve(__dirname, 'dist/app');
 let SRC_DIR  = path.resolve(__dirname, 'src');
 
 let config = {

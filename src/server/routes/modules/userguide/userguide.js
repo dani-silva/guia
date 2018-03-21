@@ -1,8 +1,8 @@
 const express = require('express'),
 	conn = require('./model/schema'),
-	Router = express.Router();
+	router = express.Router();
 
-Router
+router
 	.get('/', (req, res) => res.render('userguide'))
 
 	.get('/navguide', (req, res) => {
@@ -106,4 +106,4 @@ Router
 		})
 	})
 
-module.exports = Router;
+module.exports = router;
