@@ -295,24 +295,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/data.json",
-			"settings":
-			{
-				"buffer_size": 5834,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dist/styles.css",
-			"settings":
-			{
-				"buffer_size": 1420,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -369,7 +351,6 @@
 		"/home/daniel/Documentos/proyectos/userguide",
 		"/home/daniel/Documentos/proyectos/userguide/dist",
 		"/home/daniel/Documentos/proyectos/userguide/src",
-		"/home/daniel/Documentos/proyectos/userguide/src/app",
 		"/home/daniel/Documentos/proyectos/userguide/src/server",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules",
@@ -377,16 +358,18 @@
 	],
 	"file_history":
 	[
+		"/home/daniel/Documentos/proyectos/userguide/dist/userGuide.css",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/model.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/data.json",
+		"/home/daniel/Documentos/proyectos/userguide/dist/index.html",
+		"/home/daniel/Documentos/proyectos/userguide/webpack.config.js",
 		"/home/daniel/Documentos/proyectos/userguide/server.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/userguide.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/schema.js",
-		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/model.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/config.json",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/index.jsx",
-		"/home/daniel/Documentos/proyectos/userguide/webpack.config.js",
 		"/home/daniel/Documentos/proyectos/userguide/.babelrc",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/static/index.html",
-		"/home/daniel/Documentos/proyectos/userguide/dist/index.html",
 		"/home/daniel/Documentos/proyectos/finshape/src/app/submodules/forum/src/server/static/index.html",
 		"/home/daniel/Documentos/proyectos/finshape/webpack.config.js",
 		"/home/daniel/Documentos/proyectos/finshape/src/app/submodules/forum/webpack.config.js",
@@ -396,7 +379,6 @@
 		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component/userguide.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/routes.js",
 		"/home/daniel/Documentos/proyectos/userguide/routes.js",
-		"/home/daniel/Documentos/proyectos/userguide/src/data.json",
 		"/home/daniel/Documentos/proyectos/userguide/src/config.json",
 		"/home/daniel/Documentos/proyectos/finshape/src/server/routes/modules/Forum/Forum.js",
 		"/home/daniel/Documentos/proyectos/shopping-cart/routes.js",
@@ -503,8 +485,7 @@
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/loginExplorer.jsx",
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/registerExplorer.jsx",
 		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/item.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/buttonExplorer.jsx",
-		"/home/daniel/Documentos/proyectos/toumap/public/app/styles.css"
+		"/home/daniel/Documentos/proyectos/toumap/src/js/containers/components/buttonExplorer.jsx"
 	],
 	"find":
 	{
@@ -669,67 +650,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/data.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5834,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16,
-								16
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "dist/styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1420,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1047,
-								1047
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 507.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

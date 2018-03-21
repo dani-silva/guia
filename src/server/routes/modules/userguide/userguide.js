@@ -2,110 +2,108 @@ const express = require('express'),
 	conn = require('./model/schema'),
 	Router = express.Router();
 
-exports.routes = () => {
-	 return(
-		Router
-			.get('/', (req, res) => res.render('index'))
+Router
+	.get('/', (req, res) => res.render('index'))
 
-			.get('/navguide', (req, res) => {
+	.get('/navguide', (req, res) => {
 
-				conn.find({},{_id: false, content: false},(err, doc) => {
+		conn.find({},{_id: false, content: false},(err, doc) => {
 
-					//save titles in array
-					let arraySearch = [];
+			//save titles in array
+			let arraySearch = [];
 
-					//recursive function, recive array with document
-					let arrayDoc = (doc) => {
+			//recursive function, recive array with document
+			let arrayDoc = (doc) => {
 
-						return (
-							doc.map((item) => {
+				return (
+					doc.map((item) => {
 
-								//insert title of item on array of titles
-								arraySearch.push(item.title);
+						//insert title of item on array of titles
+						arraySearch.push(item.title);
 
-								//filter function
-								let filterSearch = (i) => {
-									return item.title == i;
-								}
+						//filter function
+						let filterSearch = (i) => {
+							return item.title == i;
+						}
 
-								// save titles of array variable
-								let filter = arraySearch.filter(filterSearch);
+						// save titles of array variable
+						let filter = arraySearch.filter(filterSearch);
 
-								if (filter.length == 1) {
+						if (filter.length == 1) {
 
-									if (item.subItems) {
+							if (item.subItems) {
 
-										//recursive function
-										let subArrayDoc = arrayDoc(item.subItems);
+								//recursive function
+								let subArrayDoc = arrayDoc(item.subItems);
 
-										if (item.index >= 0) {
-											return {
-												index: item.index,
-												title: item.title,
-												subItems: subArrayDoc
-											}
-										} else {
-											return {
-												title: item.title,
-												subItems: subArrayDoc
-											}
-										}
-									} else {
-
-										if (item.index >= 0) {
-											return {
-												index: item.index,
-												title: item.title
-											}
-										} else {
-											return {
-												title: item.title
-											}
-										}
+								if (item.index >= 0) {
+									return {
+										index: item.index,
+										title: item.title,
+										subItems: subArrayDoc
 									}
 								} else {
-									return null;
+									return {
+										title: item.title,
+										subItems: subArrayDoc
+									}
 								}
-							})
-						)
-					};
+							} else {
 
-					let result = arrayDoc(doc);
-
-					//filter results
-					let filterResult = (r) => {
-						return r != null;
-					}
-
-					let filterR = result.filter(filterResult);
-
-					let orderResult = filterR.sort((a, b) => {
-						if (a.index > b.index) {
-							return 1;
+								if (item.index >= 0) {
+									return {
+										index: item.index,
+										title: item.title
+									}
+								} else {
+									return {
+										title: item.title
+									}
+								}
+							}
+						} else {
+							return null;
 						}
-						return -1;
 					})
+				)
+			};
 
-					res.json(orderResult)
-						
-				})
+			let result = arrayDoc(doc);
+
+			//filter results
+			let filterResult = (r) => {
+				return r != null;
+			}
+
+			let filterR = result.filter(filterResult);
+
+			let orderResult = filterR.sort((a, b) => {
+				if (a.index > b.index) {
+					return 1;
+				}
+				return -1;
 			})
-			
-			.get('/searchcontent/:title', (req, res) => {
 
-				conn.findOne({"title": req.params.title},{_id: false, index: false, title: false, subItems: false}, (err, doc) => {
+			res.json(orderResult)
+				
+		})
+	})
+	
+	.get('/searchcontent/:title', (req, res) => {
 
-					if (doc) {
-						
-						res.json(doc);
+		conn.findOne({"title": req.params.title},{_id: false, index: false, title: false, subItems: false}, (err, doc) => {
 
-					} else {
-						res.json({
-							content: 'Empty content'
-						});
-					}
+			if (doc) {
+				
+				res.json(doc);
 
-				})
-			})
-	)
-}
+			} else {
+				res.json({
+					content: 'Empty content'
+				});
+			}
+
+		})
+	})
+
+module.exports = Router;

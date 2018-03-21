@@ -1,6 +1,6 @@
 const express = require('express'),
 	app = express(),
-	router = require('./src/server/routes/modules/userguide/userguide'),
+	routers = require('./src/server/routes/modules/userguide/userguide'),
 	path = require('path'),
 	publicDir = express.static(path.join(__dirname, 'dist')),
 	port = (process.env.PORT || 3000);
@@ -12,7 +12,7 @@ app
 
 	.use(publicDir)
 
-	.use('/', router.routes())
+	.use('/', routers)
 
 	.listen(app.get('port'), () => console.log('servidor corriendo: ' + port));
 
