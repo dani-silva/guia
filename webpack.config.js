@@ -12,7 +12,7 @@ let config = {
 
 	output: {
 		path: `${ DIST_DIR }/`,
-		filename: 'bundle.js',
+		filename: 'userGuide.js',
 		publicPath: '/app/'
 	},
 

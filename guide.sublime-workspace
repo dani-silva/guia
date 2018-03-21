@@ -299,7 +299,7 @@
 			"file": "src/data.json",
 			"settings":
 			{
-				"buffer_size": 5898,
+				"buffer_size": 5834,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -308,7 +308,7 @@
 			"file": "dist/styles.css",
 			"settings":
 			{
-				"buffer_size": 1396,
+				"buffer_size": 1420,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -377,12 +377,12 @@
 	],
 	"file_history":
 	[
+		"/home/daniel/Documentos/proyectos/userguide/server.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/userguide.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/schema.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/model.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/config.json",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/index.jsx",
-		"/home/daniel/Documentos/proyectos/userguide/server.js",
 		"/home/daniel/Documentos/proyectos/userguide/webpack.config.js",
 		"/home/daniel/Documentos/proyectos/userguide/.babelrc",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/static/index.html",
@@ -508,7 +508,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -522,6 +522,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"”",
+			"“",
+			"tools",
+			"load-image",
 			"className",
 			"selected",
 			"title",
@@ -645,11 +649,7 @@
 			"letUserDraw",
 			"setWorkingMethod",
 			"handlePointMethod",
-			"handlePointSelection",
-			"diference",
-			"transform",
-			"0",
-			".g-area-rect"
+			"handlePointSelection"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -669,7 +669,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -678,7 +678,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5898,
+						"buffer_size": 5834,
 						"regions":
 						{
 						},
@@ -698,7 +698,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -707,15 +707,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1396,
+						"buffer_size": 1420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1137,
-								1137
+								1047,
+								1047
 							]
 						],
 						"settings":
@@ -724,10 +724,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 507.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -735,7 +735,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 21.0
 	},
 	"input":
 	{
@@ -776,7 +776,7 @@
 	"project": "guide.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
