@@ -3,17 +3,17 @@
 		{
 			"title": "Cargar una imagen",
 			"index": 0,
-			"content": "1. Haga clic en el botón **ADD** ubicado en el cuadro de herramientas, como muestra la imagen. ![First render](/images/tools.png) \n 2. Se abrirá una ventana modal del navegador donde se solicita elegir el archivo de tipo imagen en el directorio de su equipo de computo. \n 3. Una vez elegida la imagen, confirma con el botón abrir y si es una imagen valida comenzará a cargarse. ![Load image](/images/load-image.png)",
+			"content": "1. Haga clic en el botón **ADD** ubicado en el cuadro de herramientas, como muestra la imagen. ![First render](/images/img-userguide/tools.png) \n 2. Se abrirá una ventana modal del navegador donde se solicita elegir el archivo de tipo imagen en el directorio de su equipo de computo. \n 3. Una vez elegida la imagen, confirma con el botón abrir y si es una imagen valida comenzará a cargarse. ![Load image](/images/img-userguide/load-image.png)",
 		},
 		{
 			"title": "Girar la imagen",
 			"index": 1,
-			"content": "1. Para girar la imagen es suficiente con presionar el botón **FLIP** ubicado en el cuadro de herramientas ![Button flip](/images/tools.png)"
+			"content": "1. Para girar la imagen es suficiente con presionar el botón **FLIP** ubicado en el cuadro de herramientas ![Button flip](/images/img-userguide/tools.png)"
 		},
 		{
 			"title": "Aplicar zoom",
 			"index": 2,
-			"content": "1. Use el botón medio del mouse, un scroll hacia adentro acerca la imagen y hacia fuera aleja la imagen. \n 2. Aplicar doble click sobre la imagen para activar el zoom (solo se puede acercar). \n 3. Utilizar el slider que se ubica en el cuadro de herramientas. ![Load image](/images/zoom.png)",
+			"content": "1. Use el botón medio del mouse, un scroll hacia adentro acerca la imagen y hacia fuera aleja la imagen. \n 2. Aplicar doble click sobre la imagen para activar el zoom (solo se puede acercar). \n 3. Utilizar el slider que se ubica en el cuadro de herramientas. ![Load image](/images/img-userguide/zoom.png)",
 		},
 		{
 			"title": "Mover la imagen",
@@ -23,12 +23,12 @@
 		{
 			"title": "Rotar la imagen",
 			"index": 4,
-			"content": "En la parte posterior del cuadro de herramientas hay un “slider” **IMAGE ROTATION** que permite activar el evento de rotación, este debe moverse de izquierda a derecha o viceversa utilizando el mouse. ![Button flip](/images/rotate.png)"
+			"content": "En la parte posterior del cuadro de herramientas hay un “slider” **IMAGE ROTATION** que permite activar el evento de rotación, este debe moverse de izquierda a derecha o viceversa utilizando el mouse. ![Button flip](/images/img-userguide/rotate.png)"
 		},
 		{
 			"title": "Colocar puntos",
 			"index": 5,
-			"content": "1. Primero se deben colocar los puntos A y B. Para esto debe presionar el botón **SET POINTS** ubicado en el cuadro de herramientas ![Button flip](/images/tools.png) Una vez el botón DRAW POINTS es presionado este permanecerá de color verde indicando que puede comenzar a colocar los puntos en orden. \n 2. Haga click sobre la imagen para colocar el punto **A**. \n 3. Cuando el punto **A** es colocado, un círculo pequeño de color verde es dibujado en el área de la aleta donde se hizo click. \n 4. Haga click donde recién sobresale el borde de la aleta para colocar el punto **B**. \n 5. Una vez colocado el punto **B**, la aplicación traza 4 líneas a 5, 10, 20 y 30 grados hacia abajo respecto a la línea AB. ![Draw lines a - b](/images/points.png) \n 6. Coloque el puntero del mouse sobre cualquiera de estas líneas para realizar un corte donde está atraviese el borde de la aleta, cuando la línea cambie a color blanco quiere decir que puede ser recortada, puede ayudarse con el área de zoom ubicada en la parte posterior izquierda. ![Draw automatic lines](/images/lines.png) \n 7. Repita el paso 6 hasta haber recortado todas las líneas. \n 8. Cuando la línea c30B es recortada, inmediatamente la aplicación traza el punto **O** y una línea guía que va desde el punto C30 atravesando el punto **O**. ![Draw line o](/images/line-o.png) \n 9. Coloque el puntero sobre la linea guia C30O para recortarla y el punto D sea colocado y posteriormente dos puntos de control son renderizados por la aplicación para las líneas c5A, AD y DB. ![Render control points](/images/control-points.png) \n 10. Mueva los puntos de control tratando de cerrar el área de la aleta del delfín. ![Move control points](/images/area.png)"
+			"content": "1. Primero se deben colocar los puntos A y B. Para esto debe presionar el botón **SET POINTS** ubicado en el cuadro de herramientas ![Button flip](/images/img-userguide/tools.png) Una vez el botón DRAW POINTS es presionado este permanecerá de color verde indicando que puede comenzar a colocar los puntos en orden. \n 2. Haga click sobre la imagen para colocar el punto **A**. \n 3. Cuando el punto **A** es colocado, un círculo pequeño de color verde es dibujado en el área de la aleta donde se hizo click. \n 4. Haga click donde recién sobresale el borde de la aleta para colocar el punto **B**. \n 5. Una vez colocado el punto **B**, la aplicación traza 4 líneas a 5, 10, 20 y 30 grados hacia abajo respecto a la línea AB. ![Draw lines a - b](/images/img-userguide/points.png) \n 6. Coloque el puntero del mouse sobre cualquiera de estas líneas para realizar un corte donde está atraviese el borde de la aleta, cuando la línea cambie a color blanco quiere decir que puede ser recortada, puede ayudarse con el área de zoom ubicada en la parte posterior izquierda. ![Draw automatic lines](/images/img-userguide/lines.png) \n 7. Repita el paso 6 hasta haber recortado todas las líneas. \n 8. Cuando la línea c30B es recortada, inmediatamente la aplicación traza el punto **O** y una línea guía que va desde el punto C30 atravesando el punto **O**. ![Draw line o](/images/img-userguide/line-o.png) \n 9. Coloque el puntero sobre la linea guia C30O para recortarla y el punto D sea colocado y posteriormente dos puntos de control son renderizados por la aplicación para las líneas c5A, AD y DB. ![Render control points](/images/img-userguide/control-points.png) \n 10. Mueva los puntos de control tratando de cerrar el área de la aleta del delfín. ![Move control points](/images/img-userguide/area.png)"
 		},
 		{
 			"title": "Como se calcula el área",
@@ -38,27 +38,27 @@
 		{
 			"title": "Ver medidas y ratios",
 			"index": 7,
-			"content": "1. Una vez que el área de la aleta es calculada, el botón **GET RESULTS** se habilitará. \n 2. Al dar click sobre este botón se despliega una ventana modal con una tabla de resultados: **measurements** y **ratios**. \n 3. Para cerrar la ventana modal es suficiente con hacer click sobre el botón OK. \n ![Results](/images/results.png)"
+			"content": "1. Una vez que el área de la aleta es calculada, el botón **GET RESULTS** se habilitará. \n 2. Al dar click sobre este botón se despliega una ventana modal con una tabla de resultados: **measurements** y **ratios**. \n 3. Para cerrar la ventana modal es suficiente con hacer click sobre el botón OK. \n ![Results](/images/img-userguide/results.png)"
 		},
 		{
 			"title": "Limpiar lienzo",
 			"index": 8,
-			"content": "1. Para que pueda limpiar el lienzo, debe haber al menos 1 punto dibujado sobre la imagen.\n 2. Ubique el botón **REMOVE** en el cuadro de herramientas y haga click sobre el. ![Results](/images/tools.png) \n 3. Además de haberse limpiado el lienzo, también se habilitan las manipulaciones a la imagen (zoom, voltear, rotar, mover)."
+			"content": "1. Para que pueda limpiar el lienzo, debe haber al menos 1 punto dibujado sobre la imagen.\n 2. Ubique el botón **REMOVE** en el cuadro de herramientas y haga click sobre el. ![Results](/images/img-userguide/tools.png) \n 3. Además de haberse limpiado el lienzo, también se habilitan las manipulaciones a la imagen (zoom, voltear, rotar, mover)."
 		},
 		{
 			"title": "Reiniciar manipulaciones",
 			"index": 9,
-			"content": "1. Ubique el botón **RESET** en el cuadro de herramientas y haga click sobre el. ![Results](/images/tools.png) \n 2. Las manipulaciones de la imagen regresan a su estado original (zoom, flip, rotación, posición)."
+			"content": "1. Ubique el botón **RESET** en el cuadro de herramientas y haga click sobre el. ![Results](/images/img-userguide/tools.png) \n 2. Las manipulaciones de la imagen regresan a su estado original (zoom, flip, rotación, posición)."
 		},
 		{
 			"title": "Cambiar la posición de un punto",
 			"index": 10,
-			"content": "1. Lo primero que debe hacerse es hacer click sobre el boton **CONFIGURATION** y se desplegará un submenú con dos opciones: manual, automático. \n 2. Debe hacer click en la opción **Manual**. \n 3. Ahora debe hacer click sobre el boton **SET POINTS** y se va a desplegar un submenú con una lista de los puntos disponibles. \n 4. Elija el punto que desea volver a posicionar. \n 5. Haga click sobre la imagen en donde desee colocar el punto. \n ![Results](/images/tools.png)"
+			"content": "1. Lo primero que debe hacerse es hacer click sobre el boton **CONFIGURATION** y se desplegará un submenú con dos opciones: manual, automático. \n 2. Debe hacer click en la opción **Manual**. \n 3. Ahora debe hacer click sobre el boton **SET POINTS** y se va a desplegar un submenú con una lista de los puntos disponibles. \n 4. Elija el punto que desea volver a posicionar. \n 5. Haga click sobre la imagen en donde desee colocar el punto. \n ![Results](/images/img-userguide/tools.png)"
 		},
 		{
 			"title": "Guardar cambios",
 			"index": 11,
-			"content": "1. Mientras se haya cargado una imagen, puede hacer click sobre el botón **guardar**. De otra forma este quedará inhabilitado. Si se trata de una imagen que ya había sido guardada, entonces los cambios en ella se sobrescriben. ![Results](/images/save.png) \n 2. Se despliega una ventana modal notificando si hubo éxito al guardar los datos de la imagen o si hubo algún inconveniente."
+			"content": "1. Mientras se haya cargado una imagen, puede hacer click sobre el botón **guardar**. De otra forma este quedará inhabilitado. Si se trata de una imagen que ya había sido guardada, entonces los cambios en ella se sobrescriben. ![Results](/images/img-userguide/save.png) \n 2. Se despliega una ventana modal notificando si hubo éxito al guardar los datos de la imagen o si hubo algún inconveniente."
 		}
 	]
 }
