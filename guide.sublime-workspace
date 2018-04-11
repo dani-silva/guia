@@ -295,24 +295,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "server.js",
-			"settings":
-			{
-				"buffer_size": 615,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/app/container/app.jsx",
-			"settings":
-			{
-				"buffer_size": 1775,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -367,21 +349,25 @@
 	"expanded_folders":
 	[
 		"/home/daniel/Documentos/proyectos/userguide",
-		"/home/daniel/Documentos/proyectos/userguide/dist/app",
 		"/home/daniel/Documentos/proyectos/userguide/src",
 		"/home/daniel/Documentos/proyectos/userguide/src/app",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/container",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component",
 		"/home/daniel/Documentos/proyectos/userguide/src/server",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide",
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/static"
 	],
 	"file_history":
 	[
+		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/userguide.js",
+		"/home/daniel/Documentos/proyectos/userguide/server.js",
+		"/home/daniel/Documentos/proyectos/userguide/src/app/container/app.jsx",
+		"/home/daniel/Documentos/proyectos/userguide/src/data.json",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component/navguide.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/webpack.config.js",
-		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/userguide.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/views/userguide.ejs",
 		"/home/daniel/Documentos/finshape/index.js",
 		"/home/daniel/Documentos/finshape/src/server/static/index.html",
@@ -389,11 +375,9 @@
 		"/home/daniel/Documentos/finshape/src/server/views/profile.ejs",
 		"/home/daniel/Documentos/proyectos/userguide/dist/userGuide.css",
 		"/home/daniel/Documentos/proyectos/userguide/package.json",
-		"/home/daniel/Documentos/proyectos/userguide/server.js",
 		"/home/daniel/Documentos/proyectos/userguide/dist/index.html",
 		"/home/daniel/Documentos/finshape/src/server/views/login.ejs",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/model.js",
-		"/home/daniel/Documentos/proyectos/userguide/src/data.json",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/schema.js",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/model/config.json",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/index.jsx",
@@ -403,7 +387,6 @@
 		"/home/daniel/Documentos/proyectos/finshape/webpack.config.js",
 		"/home/daniel/Documentos/proyectos/finshape/src/app/submodules/forum/webpack.config.js",
 		"/home/daniel/Documentos/proyectos/finshape/src/app/submodules/forum/src/server/routes/modules/Forum/Forum.js",
-		"/home/daniel/Documentos/proyectos/userguide/src/app/container/app.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/app/container/component/userguide.jsx",
 		"/home/daniel/Documentos/proyectos/userguide/src/server/routes/modules/userguide/routes.js",
 		"/home/daniel/Documentos/proyectos/userguide/routes.js",
@@ -671,72 +654,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "server.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 615,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								507,
-								536
-							]
-						],
-						"settings":
-						{
-							"SL.49.region_keys":
-							[
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/app/container/app.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1775,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								970,
-								970
-							]
-						],
-						"settings":
-						{
-							"SL.66.region_keys":
-							[
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -1,8 +1,10 @@
 'use strict';
 
+const config = require('./config');
+
 const mongoose = require('./model'),
 	Schema = mongoose.Schema,
-	GuideSchema = new Schema(
+	DefaultSchema = new Schema(
 		{
 			_id: Schema.Types.ObjectId,
 			index: Number,
@@ -11,9 +13,9 @@ const mongoose = require('./model'),
 			subItems: Array
 		},
 		{
-			collection: 'guide'
+			collection: config.mongodb.collection
 		}
 	),
-	Guide = mongoose.model('Guide', GuideSchema);
+	Data = mongoose.model('Data', DefaultSchema);
 
-module.exports = Guide;
+module.exports = Data;

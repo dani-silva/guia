@@ -1,6 +1,7 @@
 {
 	"mongodb": {
 		"host": "localhost",
-		"db": "guide"
+		"db": "defaultGuide",
+		"collection": "default"
 	}
 }
