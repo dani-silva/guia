@@ -1,7 +1,5 @@
 'use strict';
 
-const config = require('./config');
-
 const mongoose = require('./model'),
 	Schema = mongoose.Schema,
 	DefaultSchema = new Schema(
@@ -13,7 +11,7 @@ const mongoose = require('./model'),
 			subItems: Array
 		},
 		{
-			collection: config.mongodb.collection
+			collection: 'guide'
 		}
 	),
 	Data = mongoose.model('Data', DefaultSchema);

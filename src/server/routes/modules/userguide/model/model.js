@@ -1,9 +1,9 @@
 'use strict';
 
 const mongoose = require('mongoose'),
-	config = require('./config');
+	config = require('config').mongo;
 
-mongoose.connect(`mongodb:\/\/${config.mongodb.host}/${config.mongodb.db}`,
+mongoose.connect(config.url,
 		{
 			useMongoClient: true
 		});
