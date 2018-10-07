@@ -1,10 +1,20 @@
 'use strict';
 
-const mongoose = require('./model'),
-	Schema = mongoose.Schema,
-	DefaultSchema = new Schema(
+'use strict';
+
+const mongoose = require('mongoose'),
+	dbConfig = require('config').mongodb,
+	mongoDBPath = `mongodb://${dbConfig.host}/${dbConfig.db}`;
+
+mongoose.connect(mongoDBPath,
+	{
+		useMongoClient: true
+	});
+
+
+	var manPages = new mongoose.Schema(
 		{
-			_id: Schema.Types.ObjectId,
+			_id: mongoose.Schema.Types.ObjectId,
 			index: Number,
 			title: String,
 			content: String,
@@ -14,6 +24,6 @@ const mongoose = require('./model'),
 			collection: 'guide'
 		}
 	),
-	Data = mongoose.model('Data', DefaultSchema);
+	Pages = mongoose.model('Data', manPages);
 
-module.exports = Data;
+module.exports = Pages;
